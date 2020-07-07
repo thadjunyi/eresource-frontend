@@ -6,8 +6,8 @@ import store from "./store";
 import vuetify from "./plugins/vuetify";
 import "vuetify/dist/vuetify.min.css";
 
-Vue.prototype.$hostname = "http://172.18.12.69:";
-Vue.prototype.$hostport = "30002";
+Vue.prototype.$hostname = "localhost:";
+Vue.prototype.$hostport = "8080";
 
 Vue.config.productionTip = false;
 Vue.use(vuetify);
